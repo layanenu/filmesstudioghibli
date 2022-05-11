@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 1900px){
+    .item-a{
+        background-color: transparent;
+        width: 1910px;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+    
+    .imagem{
+        width: 1000px;
+        height: 562.5px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 1200px;
+        font-size: 15px;
+    }
+
+    .botoes{
+        width: 700px;
+        display: flex;
+        justify-content:space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media(max-width: 1900px){
+    .item-a{
+        background-color: transparent;
+        width: 1450px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+    
+    .imagem{
+        width: 888.8888888888888px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 1100px;
+        font-size: 14px;
+    }
+
+    .botoes{
+        width: 700px;
+        display: flex;
+        justify-content:space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media(max-width: 720px){
+    .item-a{
+        background-color: transparent;
+        width: 714px;
+        height: 630px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+        
+    .imagem{
+        width: 533.3333333333333px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 700px;
+        font-size: 14px;
+    }  
+
+    .botoes{
+        width: 650px;
+        display: flex;
+        justify-content:space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media(max-width: 360px){
+    .item-a{
+        width: 360px;
+        height: 630px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+        
+    .imagem{
+        width: 350px;
+        height: 196.875px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        width: 350px;
+        font-size: 13px;
+    }  
+
+    .botoes{
+        width: 320px;
+        display: flex;
+        justify-content:space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 100px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 100px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
