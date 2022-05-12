@@ -327,67 +327,6 @@ a{
     }
 }
 
-@media(max-width: 414px){
-    .item-a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 400px;
-        height: 600px;
-    }
-
-    .title{
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 17px;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        width: 1000px;
-    }
-    
-    .imagem{
-        width: 1000px;
-        height: 562.5px;
-        border-radius: 10px;
-    }
-    
-    .sinopse{
-        font-family: 'Sanchez', serif;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        font-size: 15px;
-        width: 1200px;
-    }
-
-    .botoes{
-        width: 700px; 
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .btn-trailer{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-    }
-
-    .btn-assistir{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
 @media(max-width: 360px){
     .item-a{
         display: flex;
