@@ -83,14 +83,14 @@ a{
     }
 }
 
-@media(max-width: 1600px){
+@media(max-width: 1536px){
     .item-a{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 1600px;
-        height: 900px;
+        width: 1430px;
+        height: 730px;
     }
 
     .title{
@@ -98,12 +98,12 @@ a{
         font-size: 17px;
         text-align: center;
         color: rgb(59, 59, 59);
-        width: 1000px;
+        width: 900px;
     }
     
     .imagem{
-        width: 1000px;
-        height: 562.5px;
+        width: 900px;
+        height: 506.25px;
         border-radius: 10px;
     }
     
@@ -150,8 +150,8 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 1366px;
-        height: 900px;
+        width: 1355px;
+        height: 700px;
     }
 
     .title{
@@ -163,8 +163,8 @@ a{
     }
     
     .imagem{
-        width: 1000px;
-        height: 562.5px;
+        width: 850px;
+        height: 478.125px;
         border-radius: 10px;
     }
     
@@ -174,128 +174,6 @@ a{
         color: rgb(59, 59, 59);
         font-size: 15px;
         width: 1200px;
-    }
-
-    .botoes{
-        width: 700px; 
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .btn-trailer{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-    }
-
-    .btn-assistir{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
-@media(max-width: 1280px){
-    .item-a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 1280px;
-        height: 900px;
-    }
-
-    .title{
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 17px;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        width: 1000px;
-    }
-    
-    .imagem{
-        width: 1000px;
-        height: 562.5px;
-        border-radius: 10px;
-    }
-    
-    .sinopse{
-        font-family: 'Sanchez', serif;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        font-size: 15px;
-        width: 1200px;
-    }
-
-    .botoes{
-        width: 700px; 
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .btn-trailer{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-    }
-
-    .btn-assistir{
-        background-color: brown;
-        border-radius: 10px;
-        color: white;
-        width: 260px;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
-@media(max-width: 1024px){
-    .item-a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 1024px;
-        height: 900px;
-    }
-
-    .title{
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 17px;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        width: 1000px;
-    }
-    
-    .imagem{
-        width: 1000px;
-        height: 562.5px;
-        border-radius: 10px;
-    }
-    
-    .sinopse{
-        font-family: 'Sanchez', serif;
-        text-align: center;
-        color: rgb(59, 59, 59);
-        font-size: 15px;
-        width: 1000px;
     }
 
     .botoes{
@@ -444,6 +322,128 @@ a{
         border-radius: 10px;
         color: white;
         width: 120px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media(max-width: 414px){
+    .item-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+    
+    .imagem{
+        width: 1000px;
+        height: 562.5px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        color: rgb(59, 59, 59);
+        font-size: 15px;
+        width: 1200px;
+    }
+
+    .botoes{
+        width: 700px; 
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 260px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media(max-width: 360px){
+    .item-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 360px;
+        height: 700px;
+    }
+
+    .title{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(59, 59, 59);
+        width: 1000px;
+    }
+    
+    .imagem{
+        width: 350px;
+        height: 196.875px;
+        border-radius: 10px;
+    }
+    
+    .sinopse{
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        color: rgb(59, 59, 59);
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .botoes{
+        width: 330px; 
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .btn-trailer{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 100px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .btn-assistir{
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        width: 100px;
         text-align: center;
         padding: 10px 10px 10px 10px;
     }
