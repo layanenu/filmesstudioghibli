@@ -9,6 +9,9 @@ Esse site foi criado para colocar em prática os conhecimentos em ***front-end u
 ## ► Layout do site: 
 https://user-images.githubusercontent.com/99842422/168302511-dc663ed2-d91e-447c-8eba-5ef33bef8471.MP4
 
+
+https://user-images.githubusercontent.com/99842422/168305664-3426fcaa-c5db-4c0e-8910-e01493055777.mp4
+
 ## ► Tecnologias utilizadas: ##
 html/css  |  js
 
