@@ -1,4 +1,4 @@
-# Alguns filmes do Studio Ghibli
+# Alguns filmes do Studio Ghibli 	:clapper:
 
 ## ► Sobre: 
 
